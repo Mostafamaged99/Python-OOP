@@ -138,3 +138,38 @@
 # c = C()
 # c.do_something()
 ######################################################
+# class Member:
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.age = age
+#     def get_name(self):
+#         return self.__name
+#     def set_name(self, new_name):
+#         self.__name = new_name
+#     @property
+#     def get_age(self):
+#         return f"{self.age*356} days"
+
+# omr = Member("omr", 25)
+# print(omr.get_name())
+# omr.set_name("ali")
+# print(omr.get_name())
+# print(omr.get_age)
+####################################################
+# from abc import ABCMeta, abstractmethod
+# class Programming(metaclass=ABCMeta):
+#     @abstractmethod
+#     def has_oop(self):
+#         pass
+# class Python(Programming):
+#     def has_oop(self):
+#         return "yes"
+# class Pascal(Programming):
+#     def has_oop(self):
+#         return "no"
+#         #pass
+    
+# python = Python()
+# print(python.has_oop())
+# pascal = Pascal()
+# print(pascal.has_oop())
